@@ -10,12 +10,12 @@
   revision = "3a771d992973f24aa725d07868b467d1ddfceafb"
 
 [[projects]]
-  digest = "1:a1efdbc2762667c8a41cbf02b19a0549c846bf2c1d08cad4f445e3344089f1f0"
+  digest = "1:91358b3a314c1ddfd4d6445ca9c1fb846842c31c153e626730594b3c95f73f4a"
   name = "github.com/go-stack/stack"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "259ab82a6cad3992b4e21ff5cac294ccb06474bc"
-  version = "v1.7.0"
+  revision = "2fee6af1a9795aafbe0253a0cfbdf668e1fb8a9a"
+  version = "v1.8.0"
 
 [[projects]]
   digest = "1:38e684375ef5b55e812332266d63f9fc5b6329ab303067c4cdda051db6d29ca4"
@@ -26,23 +26,23 @@
   version = "v1.1.1"
 
 [[projects]]
-  digest = "1:15042ad3498153684d09f393bbaec6b216c8eec6d61f63dff711de7d64ed8861"
+  digest = "1:97df918963298c287643883209a2c3f642e6593379f97ab400c2a2e219ab647d"
   name = "github.com/golang/protobuf"
   packages = ["proto"]
   pruneopts = "NUT"
-  revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
-  version = "v1.1.0"
+  revision = "aa810b61a9c79d51363740d207bb46cf8e620ed5"
+  version = "v1.2.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:13e2fa5735a82a5fb044f290cfd0dba633d1c5e516b27da0509e0dbb3515a18e"
+  digest = "1:b42cde0e1f3c816dd57f57f7bbcf05ca40263ad96f168714c130c611fc0856a6"
   name = "github.com/hashicorp/golang-lru"
   packages = [
     ".",
     "simplelru",
   ]
   pruneopts = "NUT"
-  revision = "0fb14efe8c47ae851c0034ed7a448854d3d34cf3"
+  revision = "20f1fb78b0740ba8c3cb143a61e86ba5c8669768"
+  version = "v0.5.0"
 
 [[projects]]
   digest = "1:08c231ec84231a7e23d67e4b58f975e1423695a32467a362ee55a803f9de8061"
@@ -53,12 +53,12 @@
   version = "v0.0.9"
 
 [[projects]]
-  digest = "1:bc4f7eec3b7be8c6cb1f0af6c1e3333d5bb71072951aaaae2f05067b0803f287"
+  digest = "1:bffa444ca07c69c599ae5876bc18b25bfd5fa85b297ca10a25594d284a7e9c5d"
   name = "github.com/mattn/go-isatty"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "0360b2af4f38e8d38c7fce2a9f4e702702d73a39"
-  version = "v0.0.3"
+  revision = "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c"
+  version = "v0.0.4"
 
 [[projects]]
   digest = "1:5985ef4caf91ece5d54817c11ea25f182697534f8ae6521eadcd628c142ac4b6"
@@ -108,12 +108,15 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:3e5fd795ebf6a9e13e67d644da76130af7a6003286531f9573f8074c228b66a3"
+  digest = "1:d90953024a4d46f93d08b2b995e9ebb33027d47130fb8b5577485fed14a981bb"
   name = "github.com/prometheus/client_golang"
-  packages = ["prometheus"]
+  packages = [
+    "prometheus",
+    "prometheus/internal",
+  ]
   pruneopts = "NUT"
-  revision = "c5b7fccd204277076155f10851dad72b76a49317"
-  version = "v0.8.0"
+  revision = "1cafe34db7fdec6022e17e00e1c1ea501022f3e4"
+  version = "v0.9.0"
 
 [[projects]]
   branch = "master"
@@ -125,7 +128,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:fad5a35eea6a1a33d6c8f949fbc146f24275ca809ece854248187683f52cc30b"
+  digest = "1:06375f3b602de9c99fa99b8484f0e949fd5273e6e9c6592b5a0dd4cd9085f3ea"
   name = "github.com/prometheus/common"
   packages = [
     "expfmt",
@@ -133,11 +136,11 @@
     "model",
   ]
   pruneopts = "NUT"
-  revision = "c7de2306084e37d54b8be01f3541a8464345e9a5"
+  revision = "7e9e6cabbd393fc208072eedef99188d0ce788b6"
 
 [[projects]]
   branch = "master"
-  digest = "1:6621142cd60b7150ab66f38ff36303ca55843dc5a635c1f9a28f95ecddab72b4"
+  digest = "1:102dea0c03a915acfc634b7c67f2662012b5483b56d9025e33f5188e112759b6"
   name = "github.com/prometheus/procfs"
   packages = [
     ".",
@@ -146,7 +149,7 @@
     "xfs",
   ]
   pruneopts = "NUT"
-  revision = "05ee40e3a273f7245e8777337fc7b46e533a9a92"
+  revision = "185b4288413d2a0dd0806f78c90dde719829e5ae"
 
 [[projects]]
   branch = "master"
@@ -177,11 +180,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:dc9552c84e344290692c6eed4c0942c9de801deed795fc3b169d654243d433cd"
+  digest = "1:1ae36225a3a98a1645ba628165e4e8017ce1e1456591eaa86a6ca97c3f66d22d"
   name = "github.com/sourcegraph/jsonrpc2"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "a3d86c792f0f5a0c0c2c4ed9157125e914cb5534"
+  revision = "549eb959f029d014d623104d40ab966d159a92de"
 
 [[projects]]
   branch = "master"
@@ -189,19 +192,19 @@
   name = "golang.org/x/net"
   packages = ["context"]
   pruneopts = "NUT"
-  revision = "f4c29de78a2a91c00474a2e689954305c350adf9"
+  revision = "c44066c5c816ec500d459a2a324a753f78531ae0"
 
 [[projects]]
   branch = "master"
-  digest = "1:35c59c51326ae24971faecb338cff208df4a4cb8b41ae5719840ca89e1ed2f34"
+  digest = "1:3393dbc238e6b9c79779c9228b967039d260fd7fc91974b2f58ae25aee3bb4f5"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "NUT"
-  revision = "2be389f392cd91df245b41638f818a1c041f0c08"
+  revision = "95b1ffbd15a57cc5abb3f04402b9e8ec0016a52c"
 
 [[projects]]
   branch = "master"
-  digest = "1:4d168f98b1eb086ed68586133a6cc59074e0fa1c940160e9e2ac3c3ab68558a2"
+  digest = "1:47768d379701044700cb6f878c95896bdec866ef9662edd7debd818e15640dde"
   name = "golang.org/x/tools"
   packages = [
     "go/ast/astutil",
@@ -212,18 +215,19 @@
     "godoc/vfs",
     "imports",
     "internal/fastwalk",
+    "internal/gopathwalk",
     "refactor/importgraph",
   ]
   pruneopts = "NUT"
-  revision = "3c07937fe18c27668fd78bbaed3d6b8b39e202ea"
+  revision = "f60e5f99f0816fc2d9ecb338008ea420248d2943"
 
 [[projects]]
-  digest = "1:efbe016b6d198cf44f1db0ed2fbdf1b36ebf1f6956cc9b76d6affa96f022d368"
+  digest = "1:405a46900fbfba733c5fb463b582c830f51c24d881d5a1d589d443cb4e374209"
   name = "gopkg.in/inconshreveable/log15.v2"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "0decfc6c20d9ca0ad143b0e89dcaa20f810b4fb3"
-  version = "v2.13"
+  revision = "67afb5ed74ec82fd7ac8f49d27c509ac6f991970"
+  version = "v2.14"
 
 [solve-meta]
   analyzer-name = "dep"
